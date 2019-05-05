@@ -1,28 +1,12 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A todolists app to implement Active Record models and relationships for the below entities:
+1. User
+2. Profile
+3. TodoList
+4. TodoItem
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+The relationships are as below:
+- User can have 1 Profile (1:1 relationship)
+- User can have many TodoLists (1:many relationship)
+- A TodoList can have many TodoItems (1:many relationship)
