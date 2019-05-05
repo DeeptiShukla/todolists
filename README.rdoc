@@ -6,6 +6,7 @@ A todolists app to implement Active Record models and relationships for the belo
 3. TodoList
 4. TodoItem
 
+
 The relationships are as below:
 - User can have 1 Profile (1:1 relationship)
 - User can have many TodoLists (1:many relationship)
